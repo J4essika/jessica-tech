@@ -1,0 +1,30 @@
+body {
+background-color:red;
+
+}
+
+@font-face {
+    font-family: 'tech';
+    src: url(origin_tech/OriginTech\ personal\ use.otf)format('truetype');
+    
+}
+
+header {
+    text-align: center;
+    font-size: large;
+    font-family:'tech';
+
+}
+
+div {
+    background-color:rgba(153, 205, 50, 0.678);
+    margin: 10px;
+    color: black;
+}
+
+    img{
+        width: 70px;
+        border-radius: 10px;
+        box-shadow: 1px 2px 2px rgb(65, 190, 192);
+    }
+
