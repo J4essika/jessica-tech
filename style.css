@@ -1,5 +1,6 @@
 body {
 background-color:rgba(150, 150, 221, 0.603);
+background-image: url(background-image.avif);
 
 }
 
@@ -13,19 +14,33 @@ header {
     text-align: center;
     font-size: large;
     font-family:'tech';
-    background-color: rgba(95, 158, 160, 0.747);
-
+    background-color: rgba(95, 158, 160, 0.856);
 }
 
+
+
 div {
-    background-color:rgba(153, 205, 50, 0.432);
+    background-color:rgba(174, 255, 11, 0.726);
     margin: 10px;
-    color: black;
+    color: rgb(85, 82, 82);
+    font-family:'tech';
+    border-radius: 8px;
+    box-shadow: 1px 2px 2px gray;
+}
+
+
+a{
+    color: rgb(99, 49, 49);
+    
+}
+
+a:hover{
+    color: red;
 }
 
     img{
         width: 70px;
         border-radius: 10px;
-        box-shadow: 1px 2px 2px yellowgreen;
+        
     }
 
