@@ -1,5 +1,5 @@
 body {
-background-color:red;
+background-color:rgba(150, 150, 221, 0.603);
 
 }
 
@@ -13,11 +13,12 @@ header {
     text-align: center;
     font-size: large;
     font-family:'tech';
+    background-color: rgba(95, 158, 160, 0.747);
 
 }
 
 div {
-    background-color:rgba(153, 205, 50, 0.678);
+    background-color:rgba(153, 205, 50, 0.432);
     margin: 10px;
     color: black;
 }
@@ -25,6 +26,6 @@ div {
     img{
         width: 70px;
         border-radius: 10px;
-        box-shadow: 1px 2px 2px rgb(65, 190, 192);
+        box-shadow: 1px 2px 2px yellowgreen;
     }
 
