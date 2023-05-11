@@ -44,3 +44,8 @@ a:hover{
         
     }
 
+footer{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(95, 158, 160, 0.856);
+    }
