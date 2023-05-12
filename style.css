@@ -1,5 +1,4 @@
 body {
-background-color:rgba(150, 150, 221, 0.603);
 background-image: url(background-image.avif);
 
 }
@@ -7,26 +6,33 @@ background-image: url(background-image.avif);
 @font-face {
     font-family: 'tech';
     src: url(origin_tech/OriginTech\ personal\ use.otf)format('truetype');
-    
 }
 
 header {
     text-align: center;
     font-size: large;
     font-family:'tech';
-    background-color: rgba(95, 158, 160, 0.856);
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 2px gray;
+    background: linear-gradient(to right,rgb(99, 99, 207) ,rgba(153, 205, 50, 0.877));
+
 }
 
-
-
 div {
-    background-color:rgba(174, 255, 11, 0.726);
+    
+    text-align: left;
+    background: linear-gradient(to right,rgba(99, 99, 207, 0.842) ,rgba(153, 205, 50, 0.87));
     margin: 10px;
-    color: rgb(85, 82, 82);
+    color: rgb(14, 2, 2);
     font-family:'tech';
     border-radius: 8px;
     box-shadow: 1px 2px 2px gray;
+    
 }
+
+
+
 
 
 a{
@@ -40,8 +46,11 @@ a:hover{
 
     img{
         width: 70px;
+        height: 70px;
         border-radius: 10px;
-        
+        margin: auto;
+        position: relative;
+        padding: 1px;
     }
 
 footer{
@@ -49,3 +58,5 @@ footer{
     font-family: 'Courier New', Courier, monospace;
     background-color: rgba(95, 158, 160, 0.856);
     }
+
+   
