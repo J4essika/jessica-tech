@@ -19,6 +19,10 @@ header {
 
 }
 
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
 div {
     
     text-align: left;
